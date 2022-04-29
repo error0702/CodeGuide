@@ -7,7 +7,7 @@
 - 👉 如果你不知道自己要从哪开始、要学什么、有什么结果，请看 [阅读指南](https://bugstack.cn/md/other/guide-to-reading.html) 这是一个码农研发人员提升自身技术栈广度和深度的经验之路，也是小傅哥的亲身学习经历汇总！
 - 👉 如果你是刚入行、在外包、跨语言学习、想跳槽大厂、缺少学习动力等，可以阅读小傅哥的成长故事，这个系列包括了我的个人在外包到大厂的成长、跳槽的过程、互联网的学习经历 Go -> [关于小傅哥](https://bugstack.cn/md/about/me/2020-08-25-13%E5%B9%B4%E6%AF%95%E4%B8%9A%EF%BC%8C%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
 - 👉 推荐 [在线阅读 bugstack.cn](https://bugstack.cn) (Github 访问速度比较慢可能会导致部分图片无法刷新出来)
-- 👉 **【重要】** 源码下载指引：小傅哥博客【设计模式、Spring、字节码、插件、中间件等】涉及到的全部源码地址：[Go -> 源码索引](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81)
+- 👉 **【重要】** ❤`源码`下载指引：小傅哥博客【设计模式、Spring、字节码、插件、中间件等】涉及到的全部源码地址：[Go -> 源码索引](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81)
 - **云服务器**：[38元1年，1核2G 练手服务器](https://www.aliyun.com/minisite/goods?userCode=is4kfbdt) 云服务学习视频课程：[📺B站 `小傅哥の码场`](https://space.bilibili.com/15637440/channel/seriesdetail?sid=479958)
 
 <br/>
@@ -56,8 +56,9 @@
     - [2.3 基础技术](https://github.com/fuzhengwei/CodeGuide#23-%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 3. [Spring](https://github.com/fuzhengwei/CodeGuide#3-spring)
     - [3.1 Spring 手撸专栏](https://github.com/fuzhengwei/CodeGuide#31-spring-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [3.2 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [3.3 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.2 Mybatis 手撸专栏](https://github.com/fuzhengwei/CodeGuide#32-mybatis-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.3 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.4 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 4. [面向对象](https://github.com/fuzhengwei/CodeGuide#4-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
     - [4.1 设计模式](https://github.com/fuzhengwei/CodeGuide#41-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [4.2 系统架构](https://github.com/fuzhengwei/CodeGuide#42-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
@@ -112,6 +113,7 @@
 19. 🔥`Java面经手册` [interview](https://github.com/fuzhengwei/interview)
 20. 🔥`Spring手撸专栏` [small-spring](https://github.com/fuzhengwei/small-spring)
 21. `IntelliJ IDEA 插件开发` [guide-idea-plugin](https://github.com/fuzhengwei/guide-idea-plugin)
+22. 🔥`Mybatis手撸专栏` [small-mybatis](https://t.zsxq.com/bmqNFQ7)
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
@@ -244,7 +246,16 @@
 
 </details>
 
-### 3.2 Spring Cloud  - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
+### 3.2 Mybatis 手撸专栏  - 👉[**在线阅读**](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
+
+- [第1章：开篇介绍，我要带你撸 Mybatis 啦！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.md)
+- [第2章：创建简单的映射器代理工厂](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-27-%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%88%9B%E5%BB%BA%E7%AE%80%E5%8D%95%E7%9A%84%E6%98%A0%E5%B0%84%E5%99%A8%E4%BB%A3%E7%90%86%E5%B7%A5%E5%8E%82.md)
+- [第3章：实现映射器的注册和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-04-%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%AE%9E%E7%8E%B0%E6%98%A0%E5%B0%84%E5%99%A8%E7%9A%84%E6%B3%A8%E5%86%8C%E5%92%8C%E4%BD%BF%E7%94%A8.md)
+- [第4章：Mapper XML的解析和注册使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
+- [第5章：数据源的解析、创建和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
+- [第6章：数据源池化技术实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-17-%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E7%9A%84%E8%A7%A3%E6%9E%90%E3%80%81%E5%88%9B%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8.md)
+
+### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
 - [Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.md)
 - [Spring Cloud一《服务集群注册与发现 Eureka》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/spring-cloud/2019-11-01-Spring%20Cloud%E4%B8%80%E3%80%8A%E6%9C%8D%E5%8A%A1%E9%9B%86%E7%BE%A4%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0%20Eureka%E3%80%8B.md)
@@ -512,7 +523,7 @@
 
 - [基于JavaAgent的全链路监控四《JVM内存与GC信息》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/agent/2019-07-13-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E5%9B%9B%E3%80%8AJVM%E5%86%85%E5%AD%98%E4%B8%8EGC%E4%BF%A1%E6%81%AF%E3%80%8B.md)
 - [基于JavaAgent的全链路监控五《ThreadLocal链路追踪》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/agent/2019-07-14-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%94%E3%80%8AThreadLocal%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA%E3%80%8B.md)
-- [基于JavaAgent的全链路监控六《开发应用级监控》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/agent/2019-07-14-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%94%E3%80%8AThreadLocal%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA%E3%80%8B.md)
+- [基于JavaAgent的全链路监控六《开发应用级监控》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/agent/2019-07-15-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E5%85%AD%E3%80%8A%E5%BC%80%E5%8F%91%E5%BA%94%E7%94%A8%E7%BA%A7%E7%9B%91%E6%8E%A7%E3%80%8B.md)
 
 </details>
 

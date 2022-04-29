@@ -405,6 +405,10 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'B站',
+                        link: 'https://space.bilibili.com/15637440'
+                    },
+                    {
                         text: 'Github',
                         link: 'https://github.com/fuzhengwei/CodeGuide'
                     }
@@ -588,7 +592,11 @@ function genBarSpringDevelopMybatis() {
             sidebarDepth: 0,
             children: [
                 "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
-                "2202-03-27-第2章：创建简单的映射器代理工厂.md",
+                "2022-03-27-第2章：创建简单的映射器代理工厂.md",
+                "2022-04-04-第3章：实现映射器的注册和使用.md",
+                "2022-04-09-第4章：XML的解析和注册使用.md",
+                "2022-04-17-第5章：数据源的解析、创建和使用.md",
+                "2022-04-23-第6章：数据源池化技术实现.md",
             ]
         }
     ]
